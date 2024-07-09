@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax {
+    background-image: url(/j1.jpg); /* Replace 'parallax-background.jpg' with your actual image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh; /* Adjust height as needed */
+    /* Add other styling as needed */
+}
+body{
+    background-color: rgb(212, 208, 208)
+}
+.if{
+    text-align: center;
+    width: 90%;
+}
+.parallax1 {
+    background-image: url(/y9.jpg); /* Replace 'parallax-background.jpg' with your actual image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh; /* Adjust height as needed */
+    /* Add other styling as needed */
+}
+.btn-group button{
+    margin: 3px;
+}
+a img{
+    width: 200%;
+    height: 20vh;
+    margin-left: -50px;
+    font-size: 200px;
+    margin-top: -29%;
+}
+.text-end{
+    margin: 3px;
+}
+
+@media(max-width:1075px){
+    .btn-outline-secondary {
+        --bs-btn-color: #6c757d;
+        --bs-btn-border-color: #6c757d;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #6c757d;
+        --bs-btn-hover-border-color: #6c757d;
+        --bs-btn-focus-shadow-rgb: 108, 117, 125;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #6c757d;
+        --bs-btn-active-border-color: #6c757d;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #6c757d;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: #6c757d;
+        --bs-gradient: none;
+        margin: 3px;
+    }
+    .justify-content-lg-start {
+        justify-content: flex-start !important;
+        width: 105%;
+    }
+ }
+ @media(max-width:1000px){
+    .btn-outline-secondary {
+        --bs-btn-color: #6c757d;
+        --bs-btn-border-color: #6c757d;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #6c757d;
+        --bs-btn-hover-border-color: #6c757d;
+        --bs-btn-focus-shadow-rgb: 108, 117, 125;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #6c757d;
+        --bs-btn-active-border-color: #6c757d;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #6c757d;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: #6c757d;
+        --bs-gradient: none;
+        margin: 3px;
+        font-size: 12px;
+    }
+ }
+ @media(max-width:800px){
+    .text-end{
+        width: 50%;
+    }
+ }
+ @media(max-width:650px){
+    .text-end{
+        width: 90%;
+    }
+ }
+ @media(max-width:350px){
+    img, svg {
+        vertical-align: middle;
+        width: 100%;
+    }
+ }
+ @media(max-width:650px){
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+    }
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+    }
+ }
+ @media(max-width:600px){
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 72vh;
+    }
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 72vh;
+    }
+ }
+ @media(max-width:550px){
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 69vh;
+    }
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 69vh;
+    }
+ }
+ @media(max-width:500px){
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 66vh;
+    }
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 66vh;
+    }
+ }
+ @media(max-width:450px){
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 63vh;
+    }
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 63vh;
+    }
+ }
+ @media(max-width:400px){
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+ }
+ @media(max-width:350px){
+    .parallax1 {
+        background-image: url(/y9.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 57vh;
+    }
+    .parallax {
+        background-image: url(/j1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 57vh;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 0rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: var(--bs-body-bg);
+        background-clip: padding-box;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        border-radius: var(--bs-border-radius);
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+ }

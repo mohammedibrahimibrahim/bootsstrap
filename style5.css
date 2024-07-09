@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 208, 208)
+}
+.ut{
+    height: 85vh;
+}
+.btn-group button{
+    margin: 3px;
+}
+a img{
+    width: 200%;
+    height: 20vh;
+    margin-left: -50px;
+    font-size: 200px;
+    margin-top: -29%;
+}
+.ky{
+    width: 95%;
+    padding: 35px;
+}
+.text-end{
+    margin: 3px;
+}
+@media(max-width:1075px){
+    .justify-content-lg-start {
+        justify-content: flex-start !important;
+        width: 105%;
+    }
+}
+@media(max-width:950px){
+    .ut {
+        height: 82vh;
+    }
+}
+@media(max-width:900px){
+    .ut {
+        height: 78vh;
+    }
+}
+@media(max-width:850px){
+    .ut {
+        height: 73vh;
+    }
+}
+@media(max-width:800px){
+    .ut {
+        height: 69vh;
+    }
+    .text-end{
+        width: 50%;
+    }
+}
+@media(max-width:750px){
+    .ut {
+        height: 64vh;
+    }
+}
+@media(max-width:700px){
+    .ut {
+        height: 59vh;
+    }
+}
+@media(max-width:650px){
+    .ut {
+        height: 59vh;
+    }
+    .text-end{
+        width: 90%;
+    }
+}
+@media(max-width:600px){
+    .ut {
+        height: 55vh;
+    }
+}
+@media(max-width:550px){
+    .ut {
+        height: 46vh;
+    }
+}
+@media(max-width:500px){
+    .ut {
+        height: 41vh;
+    }
+}
+@media(max-width:450px){
+    .ut {
+        height: 37vh;
+    }
+}
+@media(max-width:400px){
+    .ut {
+        height: 32vh;
+    }
+}
+@media(max-width:350px){
+    .ut {
+        height: 27vh;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 0rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--bs-body-color);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: var(--bs-body-bg);
+        background-clip: padding-box;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        border-radius: var(--bs-border-radius);
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+}

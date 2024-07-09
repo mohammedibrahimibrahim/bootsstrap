@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style3.css">
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <li><a href=""><img src="/Minimalist_Mascot_Phone_Logo__1_-removebg-preview.png" alt=""></a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index1.html">laptops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index2.html">Smart phones</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index3.html" data-bs-toggle="dropdown" aria-expanded="false">iwatch</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index3.html">iwatch</a></li>
+                <li><a class="dropdown-item" href="index5.html">accessories</a></li>
+                <li><a class="dropdown-item" href="index6.html">About Us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <div class="text-end ">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">login-in</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please Login in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">Login in</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Sign-up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign-up</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please sing in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">SING-IN</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner yu">
+          <div class="carousel-item active">
+            <img src="t1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item hy">
+            <img src="t15.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item ji ju">
+            <img src="t12.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Apple smartwatch</h1>
+        </p>
+      </div>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="t5.jpeg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Apple watch serious 9</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹29,640</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="t6.jpeg" alt="">
+                 <div class="card-body">
+                  <p class="card-text">Apple watch max 12</p>
+                  <p class="card-text">Powerful sensors,,Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹35,000</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="t7.jpeg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Apple watch ultra 2</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹9,20,374</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="t8.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Apple watch ultra 7</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹23,670</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="t9.jpeg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Apple watch ultra 3</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹65,340</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+               <img src="t10.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Apple watch serious f4</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹32,430</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Ip,pro smartwatch</h1>
+        </p>
+      </div>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="r1.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">i,pro watch ultra</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹29,000</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="r2.jpg" alt="">
+                 <div class="card-body">
+                  <p class="card-text">i,pro watch serious 5</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹32,240</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="r3.webp" alt="">
+                <div class="card-body">
+                  <p class="card-text">i,pro watch 7</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹9,374</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="r9.webp" alt="">
+                <div class="card-body">
+                  <p class="card-text">i,pro watch serious 2</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹55,140</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="r10.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">i,pro watch ultra</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹69,740</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+               <img src="r7.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">i,pro ultra 9</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹30,000</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Rolex,smartwatch</h1>
+        </p>
+      </div>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="p1.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Rolex watch i1</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹3,140</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="p2.png" alt="">
+                 <div class="card-body">
+                  <p class="card-text">Rolex watch ultra</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹3,240</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="p3.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Rolex watch i3</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹9,374</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="p4.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Rolex watch e2</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹5,735</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="p5.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Rolex watch e7</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs..</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹2,983</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+               <img src="p6.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Rolex watch ultra 4</p>
+                  <p class="card-text">Powerful sensors, Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                      <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹7,230</button></a>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ky">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Apple Smart watch  7</h3>
+          <p>Its performance of Higher apple watch gaming and videos audios its types of mx pad watch this dp display pad of things and higher capicitys and this hd display orginal disk drive etc..s.</p>
+          <a href="#" class="icon-link">
+            book now
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Ip,smart watch</h3>
+          <p>Its performance of Higher Ip,watch gaming and videos audios its types of mx pad watch this dp display pad of things and higher capicitys and this hd display orginal disk drive etc...</p>
+          <a href="#" class="icon-link">
+            order now
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Rolex smart watch</h3>
+          <p>Its performance of Higher Rolex smart watch gaming and videos audios its types of mx pad watch this dp display pad of things and higher capicitys and this hd display orginal disk drive etc..s.</p>
+          <a href="#" class="icon-link">
+            buy now
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+      </div>
+
+
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

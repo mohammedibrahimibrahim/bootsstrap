@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <li><a href=""><img src="/Minimalist_Mascot_Phone_Logo__1_-removebg-preview.png" alt=""></a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index1.html">laptops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index2.html">Smart phones</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index3.html" data-bs-toggle="dropdown" aria-expanded="false">iwatch</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index3.html">iwatch</a></li>
+                <li><a class="dropdown-item" href="index5.html">accessories</a></li>
+                <li><a class="dropdown-item" href="index6.html">About Us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <div class="text-end ">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">login-in</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please Login in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">Login in</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Sign-up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign-up</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please sing in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">SING-IN</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+
+
+   
+
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="j2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item hy">
+            <img src="u7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item ji">
+            <img src="u2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+     
+
+
+
+
+
+      
+
+
+
+
+
+    <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">New Brands</h1>
+        <p class="lead text-body-secondary">Its performance of Higher apple,poco,realme gaming and videos audios its types of mx pad mobiles this dp display pad of things and higher capicitys and this hd display orginal disk drive etc...</p>
+        <p>
+        </p>
+      </div>
+
+
+      <div class="parallax">
+        <!-- Content for the parallax section -->
+    </div>
+
+
+
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Apple phone</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(s1.webp);">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Apple phones 1plus</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>touch,pad</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(s6.webp);">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">vivo smartphones 8+32gb ram</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>8+16gb</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>4d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(s5.jpg);">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Realme,plus 16gb plus 32gb</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>16+23gb</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>5d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">Apple smartphones</h1>
+      </p>
+    </div>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="b1.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Apple 0ne plus</p>
+                <p class="card-text">Apple 2023 one plus Pro M1 Max - (16 GB/ 256 internal/Mac pro higher gaming os)(14.5 inch, Space purple�, 4.2 kg)..</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹2,19,640</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="b8.webp" alt="">
+               <div class="card-body">
+                <p class="card-text">Apple 16,plus 128gb</p>
+                <p class="card-text">Apple 16,plus 128gb orginal display Max - (16g GB/128gb/apple pro higher O) MK1A3HN/A (internal) Space black�.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹1,02,240</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="b3.webp" alt="">
+              <div class="card-body">
+                <p class="card-text">Apple 8gb,plus,32gb</p>
+                <p class="card-text">Apple 2023 latest model-(8 GB/+32gb/ OS ) MK1A3HN/A (latest orginal pro maxwhite gaming pro�,).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹4,01,334</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="b4.jpeg" alt="">
+              <div class="card-body">
+                <p class="card-text">Apple 4gb,plus 64gb</p>
+                <p class="card-text">Apple 2020 model Pro M2 Max - (4gb/4+64gb/Mac pro) MK1A3HN/A (higher internal, Space gray�, improvegb higher porformance 7gb).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹80,000</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="b7.avif" alt="">
+              <div class="card-body">
+                <p class="card-text">Apple 1+1phone 32+78</p>
+                <p class="card-text">Apple orginal display 2024- (32 GB/1+1,32+78gb/Mac extends) MK1A3HN/A (extends gb ram, Space pink�,)..</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹60,140</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="b6.webp" alt="">
+              <div class="card-body">
+                <p class="card-text">Apple 128gb 8ram</p>
+                <p class="card-text">APPLE 2021 15th Pro M1 Max - (8GB/128gb/Mac working ssd) MK1A3HN/A (higher porformance, Space red�).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                    <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹90,000</button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">realme smartphones</h1>
+            </p>
+          </div>
+
+
+          
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="h5.png" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Realme 13,C pro</p>
+                      <p class="card-text">Realme 13 C pro 2023 M1 Max - (8 GB/128gb/m1 pro higher OS extends)(8gb extends, Space light,green�,.)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹27,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="h7.png" alt="">
+                     <div class="card-body">
+                      <p class="card-text">Realme A2+</p>
+                      <p class="card-text">Realme A2+ orginal Max - (8g GB/64gb/Mac  pro higher 6gb extends) MK1A3HN/A (extends, Space cyan�...)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹15,780</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="m3.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Realme C33</p>
+                      <p class="card-text">Realme C33 2024 latest model extends- (8 GB/128gb pro/Mac OS extends) MK1A3HN/A (internal gb, light green�,...).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹32,420</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="h12.png" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Realme 12 C pro</p>
+                      <p class="card-text">Realme 12 c Pro M2 Max - (16gb/128+8gb/Mac extra ram ) MK1A3HN/A (8gb extra, Space purple�,).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹29,140</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="m2.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Realme 10,pro</p>
+                      <p class="card-text">Realme 10 pro orginal display 2024- (8 GB/132gb/Mac 5gb extra) MK1A3HN/A (extra 5,gb, Space light blue�,)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹62,740</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="m4.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Realme C33 Pro</p>
+                      <p class="card-text">Realme C33 2024 latest model extends- (8 GB/128gb pro/Mac OS extends) MK1A3HN/A (internal gb, light brown�,...).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹45,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">poco pro smartphones</h1>
+            </p>
+          </div>
+
+
+          
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="w5.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">poco C55 pro</p>
+                      <p class="card-text">poco C55 pro 2023 5g+Pro M1 Max - (8 GB/128gb/Mac pro higher porformance) MK1A3HN/A (9gb extends, Space blue�,)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹26,840</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="w6.webp" alt="">
+                     <div class="card-body">
+                      <p class="card-text">poco 5g one plus</p>
+                      <p class="card-text">poco 5g 2022 orginal Max(8g GB/64gb extara/Mac pro higher extra,4 gb)N/A(poco gb 4+,extends, Space light cyan�,.)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹58,930</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="w7.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">poco 18 pro</p>
+                      <p class="card-text">pogo 18 5g pro 2024 latest model- (8 GB/64 gb/Mac 5g) MK1A3HN/A ( 5g extra internal, white�,).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹93,374</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="w8.png" alt="">
+                    <div class="card-body">
+                      <p class="card-text">poco 4gb+64</p>
+                      <p class="card-text">poco pro 2016 Pro - (4gb/64gb pro/Mac OS extands apps) MK1A3HN/A (orginal mobile, Space cyan�,).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹9,890</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="w9.jpeg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">poco f40 pro</p>
+                      <p class="card-text">poco f40 pro orginal display 2022- (16 GB/132 gb extra/Mac OS 5gb ) MK1A3HN/A (internal storage, Space cyan�,)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹69,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="w11.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">poco f4 5g</p>
+                      <p class="card-text">poco f4 5g 2023 Macbook Pro M1 Max - (16 GB/132 gb/Mac OS internal ) MK1A3HN/A (extends 5g, Space cyan�,.).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹98,930</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Vivo pro smartphones</h1>
+            </p>
+          </div>
+
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="d1.jpeg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">vivo y22 pro</p>
+                      <p class="card-text">vivo y22 pro 2023 5g Pro M1 Max - (8gb GB/128 gb/Mac pro higher internal ) MK1A3HN/A (extends ram, Space light gray�,)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹1,01,640</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="d2.png" alt="">
+                     <div class="card-body">
+                      <p class="card-text">vivi y2nG pro</p>
+                      <p class="card-text">vivo y2nG pro 2023 5g Pro M1 Max - (4gb GB/128 gb/Mac pro higher internal ) MK1A3HN/A (extends ram, Space light cyan�,)...</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹20,240</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="d3.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">vivo y100 pro</p>
+                      <p class="card-text">vivo y100 pro 2022 5g Pro M1 Max - (8gb GB/132 gb/Mac pro higher internal storage improved ) MK1A3HN/A (extends ram, Space black�,)...</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹9,374</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="d4.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">vivo y75 pro</p>
+                      <p class="card-text">vivo y75 pro 2020 5g Pro M1 Max - (8gb GB/128 gb/Mac pro higher internal )(extends ram, Space light gray�,)...</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹50,340</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="d5.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">vivo t2 pro</p>
+                      <p class="card-text">vivo t2 pro 2023 5g Pro M1 Max - (8gb GB/132 gb/Mac pro higher internal )(extends ram, Space light purple�,)....</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹61,537</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="d7.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">vivo y200 pro 5g</p>
+                      <p class="card-text">vivo y200 pro 2023 5g Pro M1 Max - (32gb GB/569 gb/Mac pro higher internal )(extends ram, Space light green�,)...</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹1,05,345</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">samsungs smartphones</h1>
+            </p>
+          </div>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="v1.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">samsung M34 5G</p>
+                      <p class="card-text">samsung M34 5g 2024 Pro M1 Max - (16 GB/340 gb/Mac pro higher internal extrea 6gb) MK1A3HN/A (capacity, memory Space cyan�,..)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹92,268</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="v2.jpg" alt="">
+                     <div class="card-body">
+                      <p class="card-text">samsung galaxy j2</p>
+                      <p class="card-text">samsung galaxy j2 2014 Pro M1 Max - (4 GB/64 gb/Mac pro higher internal extrea 2gb) MK1A3HN/A (capacity, memory Space marun�,..)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹10,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="v7.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">samsung A55 5G</p>
+                      <p class="card-text">samsung A55 5g 2024 Pro M1 Max - (16 GB/128 gb/Mac pro higher internal extrea 4gb) MK1A3HN/A (capacity, memory Space cyan�,..).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹79,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="v4.webp" alt="">
+                    <div class="card-body">
+                      <p class="card-text">samsung F55 5G</p>
+                      <p class="card-text">samsung F55 5g 2024 Pro M1 Max - (32 GB/580 gb/Mac pro higher internal extrea 9gb)(capacity, memory Space black�,..).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹2,03,468</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="v8.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">samsung A05</p>
+                      <p class="card-text">samsung A05 5g 2024 Pro M1 Max - (16 GB/340 gb/Mac pro higher internal extrea 6gb)(capacity, memory Space black�,..)..</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹99,999</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="v9.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">samsung A05s pro</p>
+                      <p class="card-text">samsung A05s 5g 2024 Pro M1 Max - (8 GB/128 gb/Mac pro higher internal extrea 6gb)(capacity, memory Space light cyan�,..).</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+                          <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹87,000</button></a>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ky">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Apple phones 5G</h3>
+              <p>Its performance of Higher apple,poco,realme gaming and videos audios its types of mx pad mobiles this dp display pad of things and higher capicitys and this hd display orginal disk drive etc..s.</p>
+              <a href="#" class="icon-link">
+                book now
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Poco Pro 5G</h3>
+              <p>Its performance of Higher apple,poco,realme gaming and videos audios its types of mx pad mobiles this dp display pad of things and higher capicitys and this hd display orginal disk drive etc...</p>
+              <a href="#" class="icon-link">
+                order now
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Realme Pro 5G</h3>
+              <p>Its performance of Higher apple,poco,realme gaming and videos audios its types of mx pad mobiles this dp display pad of things and higher capicitys and this hd display orginal disk drive etc..s.</p>
+              <a href="#" class="icon-link">
+                buy now
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+  
+          
+       
+
+
+
+    
+
+
+
+   
+
+
+
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <li><a href=""><img src="/Minimalist_Mascot_Phone_Logo__1_-removebg-preview.png" alt=""></a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index1.html">laptops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index2.html">Smart phones</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index3.html" data-bs-toggle="dropdown" aria-expanded="false">iwatch</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index3.html">iwatch</a></li>
+                <li><a class="dropdown-item" href="index5.html">accessories</a></li>
+                <li><a class="dropdown-item" href="index6.html">About Us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <div class="text-end ">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">login-in</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please Login in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">Login in</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Sign-up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign-up</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body text-dark d-flex align-items-center justify-content-center">
+          <form>
+              <img class="mb-4" src="logo-removebg-preview.png" alt="" width="72" height="57">
+              <h1 class="h3 mb-3 fw-normal d-flex">Please sing in</h1>
+          
+              <div class="form-floating text-dark">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating text-dark">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="form-check text-start my-3 text-dark">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault text-dark">
+                <label class="form-check-label" for="flexCheckDefault text-dark">
+                  Remember me
+                </label>
+              </div>
+              <div class="ca">
+                  <button class="btn btn-primary w-100 py-2" type="submit">SING-IN</button>
+                  <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+              </div>
+            </form>
+      </div>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+   
+
+    
+
+
+    <div id="carouselExampleCaptions" class="carousel slide juuu">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="p7.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to IH,SHOP</h2>
+            <p> Higher porfarmance i7,windows 11, 11th gen laptops.</p>
+            <a href="index1.html"><button type="button" class="btn btn-danger">book-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-primary">order-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-outline-light">Buy-now</button></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="y10.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="g1">First Buy now</h2>
+            <p id="g2">Higher porfarmance apple phone, 8gb Ram,128gb internal</p>
+            <a href="index2.html"><button type="button" class="btn btn-danger">book-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-primary">order-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-outline-dark">Buy-now</button></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="a3.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="g3">First Buy now</h2>
+            <p id="g4">Higher porfarmance i watch 12gb,23g, extand.</p>
+            <a href="index3.html"><button type="button" class="btn btn-danger">book-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-primary">order-now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-outline-dark">Buy-now</button></a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container py-4">
+      <header class="pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+          <span class="fs-4">laptops,iPad,watch</span>
+        </a>
+      </header>
+
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">laptops purchase now</h1>
+        <p class="col-md-8 fs-4">Assuming you're looking for information about Apple products, computer,laptop,mobiles I can provide you with a general overview, but please specify if you're interested in details about a specific Apple product or product category.</p>
+        <a href="index1.html"><button class="btn btn-primary btn-lg" type="button">book & order</button></a>
+      </div>
+    </div>
+
+
+
+    
+
+    
+
+
+
+
+    
+  
+      
+
+
+
+  
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2>HP,ACER,DELL.I7</h2>
+            <p>Hp,acer,Dell,acus,Lenovo,computer and pc 11 Windows,15+ 19,Inches Laptops colorr,Black,gray,white,purple,11gen,2.2kg.</p>
+            <a href="index1.html"><button class="btn btn-outline-light" type="button">Buy now</button></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>IPHONE,APPLE,REDMI,VIVO</h2>
+            <p>Apple's line of personal phones, which includes the redmi pro, vivo pro, samsungs pro,oppo pro,1plus pro new brands Pro.</p>
+            <a href="index2.html"><button class="btn btn-outline-secondary" type="button">Buy now</button></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container my-4">
+        <div class="card-group">
+          <div class="card">
+            <img src="y2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acer i7 11gen</h5>
+              <p class="card-text">Acer 2023 i7 Pro 11gen Max - (8 GB/1 600 SSD/Mac OS 11,window ) MK1A3HN/A (12.2 inch, Space Grey�, 2.4 kg)...</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹2,19,640</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="y3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acer i5 8gen</h5>
+              <p class="card-text">Acer 2024 i5 Pro 8gen Max - (16 GB/1 256 SSD/Mac OS window,10,game new perform) MK1A3HN/A (16.2 inch, Space black�, 2.2 kg)..</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹4,11,440</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="y4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acer one 14th</h5>
+              <p class="card-text">Acer 2024 one 14th Pro M1 Max - (18 GB/1 256+TB SSD/Mac OS window,11) MK1A3HN/A (16.2 inch, Space white, 2.2 kg)..</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+              <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹5,10,980</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+      
+
+
+    
+
+    <div class="container my-4">
+      <div class="card-group">
+        <div class="card">
+          <img src="i1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">i,phone 16gb ram</h5>
+            <p class="card-text">i,phone 2024 mx Pro 121 Max - (16 GB/1gb std/Mac OS Monterey) MK1A3HN/A (12 inch, Space Grey�, 2.2 kg)..</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹2,49,40</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="i2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple phone 128gb </h5>
+            <p class="card-text">APPLE phone 2021 1+ Pro M1 Max - (128 GB/1 56 SSD/Mac OS Monterey) MK1A3HN/A (16.2 high, Space Grey�, 2.2 kg)..</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹6,49,40</button></a>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="i3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iphone 16+128</h5>
+            <p class="card-text">iphone 2022 16 Pro M1 Max - (16 GB/128 Std/Mac OS Monterey) MK1A3HN/A (16.2 high, Space black�, 2.2 kg)..</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹3,41,40</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container my-4">
+      <div class="card-group">
+        <div class="card">
+          <img src="t5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple watch max 12</h5>
+            <p class="card-text">Powerful sensors,,Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs...</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹35,000</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="t6.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple watch ultra 2 </h5>
+            <p class="card-text">Powerful sensors,,Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs...</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹6,440</button></a>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="t7.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple watch ultra 7</h5>
+            <p class="card-text">Powerful sensors,,Advanced health features. With Call Function Touchscreen Fitness & Outdoor Battery Runtime: Upto 18 hrs...</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">Buy now</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-sm btn-outline-secondary">₹23,640</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+
+    
+
+
+
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">MY IPad,laptops</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Assuming you're looking for information about Apple products, computer,laptop,mobiles I can provide you with a general overview, but please specify if you're interested in details about a specific Apple product or product category. mobile world’s .</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="index1.html"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">SHOP NOW</button></a>
+            <a href="index6.html"><button type="button" class="btn btn-outline-light btn-lg px-4">MORE DETAILS</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+
+      
+
+
+
+
+    <footer class="py-5  my-4">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>About us</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>our service</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>our brands</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <a href="index4.html"><button class="btn btn-primary" type="button">Subscribe</button></a>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+      
+
+
+
+    
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
