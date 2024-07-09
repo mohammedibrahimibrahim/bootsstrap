@@ -3,15 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.parallax {
-    background-image: url(u1.jpg); /* Replace 'parallax-background.jpg' with your actual image */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh; /* Adjust height as needed */
-    /* Add other styling as needed */
-}
 .hy{
     height: 90vh;
 }
