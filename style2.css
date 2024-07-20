@@ -27,10 +27,9 @@ body{
 }
 a img{
     width: 200%;
-    height: 20vh;
-    margin-left: -50px;
-    font-size: 200px;
-    margin-top: -29%;
+    height: 17vh;
+    margin-left: -40px;
+    margin-top: -49%;
 }
 .ky{
     width: 95%;
@@ -38,6 +37,12 @@ a img{
 }
 .text-end{
     margin: 3px;
+}
+#navbarsExample03 a{
+    margin-top: -12px;
+}
+.form-floating{
+    height: 12vh;
 }
 @media(max-width:1075px){
     /* .justify-content-lg-start {
