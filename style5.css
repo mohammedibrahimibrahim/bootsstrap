@@ -31,6 +31,24 @@ a img{
 .form-floating{
     height: 12vh;
 }
+.payment-logos {
+    display: flex;
+    gap: 70px;
+    font-size: 30px;
+    padding: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
 @media(max-width:1075px){
     .justify-content-lg-start {
         justify-content: flex-start !important;
@@ -96,6 +114,14 @@ a img{
 @media(max-width:450px){
     .ut {
         height: 37vh;
+    }
+    .payment-logos {
+        display: flex;
+        gap: 49px;
+        font-size: 30px;
+        padding: 10px;
+        align-items: start;
+        justify-content: center;
     }
 }
 @media(max-width:400px){

@@ -38,6 +38,24 @@ a img{
 .form-floating{
     height: 12vh;
 }
+.payment-logos {
+    display: flex;
+    gap: 70px;
+    font-size: 30px;
+    padding: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
 
 @media(max-width:1075px){
     .btn-outline-secondary {
@@ -187,6 +205,14 @@ a img{
         background-size: cover;
         height: 63vh;
     }
+    .payment-logos {
+        display: flex;
+        gap: 49px;
+        font-size: 30px;
+        padding: 10px;
+        align-items: start;
+        justify-content: center;
+    }
  }
  @media(max-width:400px){
     .parallax {
@@ -240,4 +266,5 @@ a img{
         border-radius: var(--bs-border-radius);
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
+    
  }
