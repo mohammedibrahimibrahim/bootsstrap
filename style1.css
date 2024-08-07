@@ -13,7 +13,8 @@
     /* Add other styling as needed */
 }
 body{
-    background-color: rgb(212, 208, 208)
+    /* background-color: rgb(212, 208, 208) */
+    background-image: url(body2.jpg);
 }
 .if{
     text-align: center;
@@ -55,6 +56,17 @@ a img{
 
 .logo:hover {
     transform: scale(1.1);
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px; 
+}
+.icon IMG:hover{
+    transition: 1s;
+    transform: scale(1.2);
 }
 
 @media(max-width:1075px){
