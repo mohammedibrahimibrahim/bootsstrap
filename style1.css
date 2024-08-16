@@ -66,6 +66,11 @@ body{
         background-size: cover;
     }
 }
+.card1 img{
+    width: 100%;
+    height: 100vh;
+    
+}
 
 .if{
     text-align: center;
@@ -163,22 +168,40 @@ a img{
         font-size: 12px;
     }
  }
+ @media(max-width:900px){
+    .card1 img {
+        width: 100%;
+        height: 90vh;
+    }
+ }
+ @media(max-width:850px){
+    .card1 img {
+        width: 100%;
+        height: 83vh;
+    }
+ }
  @media(max-width:800px){
     .text-end{
         width: 50%;
     }
- }
- @media(max-width:650px){
-    .text-end{
-        width: 90%;
-    }
- }
- @media(max-width:350px){
-    img, svg {
-        vertical-align: middle;
+    .card1 img {
         width: 100%;
+        height: 77vh;
     }
  }
+ @media(max-width:750px){
+    .card1 img {
+        width: 100%;
+        height: 70vh;
+    }
+ }
+ @media(max-width:700px){
+    .card1 img {
+        width: 100%;
+        height: 67vh;
+    }
+ }
+ 
  @media(max-width:650px){
     .parallax1 {
         background-image: url(/y9.jpg);
@@ -195,6 +218,13 @@ a img{
         background-repeat: no-repeat;
         background-size: cover;
         height: 75vh;
+    }
+    .text-end{
+        width: 90%;
+    }
+    .card1 img {
+        width: 100%;
+        height: 63vh;
     }
  }
  @media(max-width:600px){
@@ -214,6 +244,10 @@ a img{
         background-size: cover;
         height: 72vh;
     }
+    .card1 img {
+        width: 100%;
+        height: 60vh;
+    }
  }
  @media(max-width:550px){
     .parallax1 {
@@ -232,6 +266,10 @@ a img{
         background-size: cover;
         height: 69vh;
     }
+    .card1 img {
+        width: 100%;
+        height: 57vh;
+    }
  }
  @media(max-width:500px){
     .parallax {
@@ -249,6 +287,10 @@ a img{
         background-repeat: no-repeat;
         background-size: cover;
         height: 66vh;
+    }
+    .card1 img {
+        width: 100%;
+        height: 54vh;
     }
  }
  @media(max-width:450px){
@@ -276,6 +318,10 @@ a img{
         align-items: start;
         justify-content: center;
     }
+    .card1 img {
+        width: 100%;
+        height: 50vh;
+    }
  }
  @media(max-width:400px){
     .parallax {
@@ -293,6 +339,10 @@ a img{
         background-repeat: no-repeat;
         background-size: cover;
         height: 60vh;
+    }
+    .card1 img {
+        width: 100%;
+        height: 45vh;
     }
  }
  @media(max-width:350px){
@@ -328,6 +378,14 @@ a img{
         border: var(--bs-border-width) solid var(--bs-border-color);
         border-radius: var(--bs-border-radius);
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    img, svg {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .card1 img {
+        width: 100%;
+        height: 40vh;
     }
     
  }
