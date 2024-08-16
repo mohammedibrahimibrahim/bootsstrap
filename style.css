@@ -94,22 +94,22 @@ height: 90vh;
         font-size: calc(1.325rem + -0.1vw);
     }
     .juuu img {
-        height: 86vh;
+        height: 80vh;
     }
  }
  @media(max-width:950px){
     .juuu img {
-        height: 84vh;
+        height: 78vh;
     }
  }
  @media(max-width:900px){
     .juuu img {
-        height: 81vh;
+        height: 76vh;
     }
  }
  @media(max-width:850px){
     .juuu img {
-        height: 78vh;
+        height: 73vh;
     }
  }
  @media(max-width:800px){
@@ -131,7 +131,7 @@ height: 90vh;
         margin: 3px;
     }
     .juuu img {
-        height: 75vh;
+        height: 70vh;
     }
     .text-end{
         width: 50%;
@@ -139,18 +139,18 @@ height: 90vh;
  }
  @media(max-width:750px){
     .juuu img {
-        height: 70vh;
+        height: 65vh;
     }
     
  }
  @media(max-width:700px){
     .juuu img {
-        height: 67vh;
+        height: 63vh;
     }
  }
  @media(max-width:650px){
     .juuu img {
-        height: 65vh;
+        height: 59vh;
     }
     .text-end{
         width: 90%;
@@ -158,23 +158,23 @@ height: 90vh;
  }
  @media(max-width:600px){
     .juuu img {
-        height: 64vh;
+        height: 55vh;
     }
     
  }
  @media(max-width:550px){
     .juuu img {
-        height: 58vh;
+        height: 53vh;
     }
  }
  @media(max-width:500px){
     .juuu img {
-        height: 53vh;
+        height: 48vh;
     }
  }
  @media(max-width:450px){
     .juuu img {
-        height: 48vh;
+        height: 43vh;
     }
     .payment-logos {
         display: flex;
@@ -192,9 +192,9 @@ height: 90vh;
         font-size: 12px;
     }
     .juuu img {
-        height: 44vh;
+        height: 38vh;
     }
-    .form-control {
+    /* .form-control {
         display: block;
         width: 101%;
         padding: 1.375rem .75rem;
@@ -210,6 +210,16 @@ height: 90vh;
         border: var(--bs-border-width) solid var(--bs-border-color);
         border-radius: var(--bs-border-radius);
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    } */
+    .form-control {
+        display: block;
+        width: 97%;
+    }
+    .py-2 {
+        padding-top: .5rem !important;
+        padding-bottom: 0.5rem !important;
+        display: flex;
+        margin-left: -21px;
     }
  }
  @media(max-width:350px){
@@ -217,10 +227,19 @@ height: 90vh;
         font-size: calc(1.325rem + -2.1vw);
     }
     .juuu img {
-        height: 39vh;
+        height: 32vh;
     }
     .fs-4 {
         font-size: calc(1.275rem + -0.7vw) !important;
     }
-   
+    .form-control {
+        display: block;
+        width: 87%;
+    }
+    .py-2 {
+        padding-top: .5rem !important;
+        padding-bottom: 0.5rem !important;
+        display: flex;
+        margin-left: -34px;
+    }
  }
